@@ -1,0 +1,236 @@
+@media only screen and (min-width: 1200px) {
+    .block {
+        margin-top: 30px;
+    }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    ul li {
+        padding: 53px 0 0 30px;
+    }
+    .section-box {
+        height: 100%;
+    }
+    .block {
+        margin: 20px auto 20px auto;
+    }
+    .wrap h2 {
+        padding-top: 70px;
+    }
+    .contact input {
+        width: 465px;
+        margin: auto 0;
+    }
+    .button-send {
+        margin-right: 0;
+        margin-bottom: 40px;
+    }
+    .section-form h2 {
+        padding-top: 50px;
+    }
+    .section-form {
+        height: 100%;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .logo img {
+        height: 60px;
+        margin-top: 10px;
+        text-align: center;
+    }
+    ul li {
+        padding: 15px 10px 0px 10px;
+    }
+    .menu i {
+        padding-left: 15px;
+    }
+    h1 {
+        line-height: 60px;
+        padding-top: 100px;
+    }
+    .fa-angle-down {
+        font-size: 45px;
+    }
+    .block {
+        margin: 30px auto 30px auto;
+    }
+    .section-box {
+        height: 100%;
+    }
+    .aside {
+        padding: 40px 0 0 0;
+    }
+    .wrap h2 {
+        padding-top: 40px;
+    }
+    .contact input {
+        margin-bottom: 40px;
+        width: 720px;
+    }
+    .button-send {
+        margin-right: 0;
+        margin-bottom: 40px;
+    }
+    .section-form h2 {
+        padding-top: 50px;
+    }
+    .section-form {
+        height: 100%;
+    }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+    .logo img {
+        height: 80px;
+        margin-top: 20px;
+    }
+    ul li, .menu i {
+        display: none;
+    }
+    .BurgerMenu {
+        display: block;
+        position: absolute;
+        right: 10px;
+        top: 10px;
+        font-size: 40px;
+    }
+    h1 {
+        line-height: 65px;
+        padding-top: 70px;
+    }
+    .fa-angle-down {
+        padding-top: 70px;
+    }
+    .text h2 {
+        padding: 80px 0 30px 0;
+    }
+    .block {
+        margin: 30px auto 30px auto;
+    }
+    .section-box {
+        height: 100%;
+    }
+    .aside {
+        padding: 40px 0 0 0;
+    }
+    .wrap h2 {
+        padding-top: 40px;
+    }
+    .contact input {
+        margin-bottom: 40px;
+        width: 95%;
+    }
+    .messenge textarea {
+        width: 95%;
+    }
+    .button-send {
+        margin-right: 10px;
+        margin-bottom: 40px;
+    }
+    .section-form h2 {
+        padding-top: 50px;
+    }
+    .list {
+        padding-top: 50px;
+    }
+    .section-form {
+        height: 100%;
+    }
+    .icon {
+        margin-top: 30px;
+    }
+}
+
+@media only screen and (min-width: 340px) and (max-width: 575px) {
+    .logo img {
+        height: 80px;
+        margin-top: 20px;
+    }
+    ul li, .menu i {
+        display: none;
+    }
+    .BurgerMenu {
+        display: block;
+        position: absolute;
+        right: 20px;
+        top: 20px;
+        top: 10px;
+        font-size: 40px;
+    }
+    h1 {
+        line-height: 65px;
+        padding-top: 50px;
+        font-size: 45px;
+    }
+    .section-main p {
+        line-height: 30px;
+        padding-top: 20px;
+    }
+    .main-buttons {
+        flex-wrap: wrap;
+        margin-top: 70px;
+    }
+    .button {
+        margin: 0 30px 0 30px;
+    }
+    .button-green {
+        margin: 40px 30px 0 30px;
+    }
+    .fa-angle-down {
+        padding-top: 70px;
+        font-size: 45px;
+    }
+    .text h2 {
+        padding: 20px 0 30px 0;
+    }
+    .tittle p {
+        margin-bottom: 40px;
+    }
+    .section-page {
+        height: 950px;
+    }
+    .items p {
+        padding-bottom: 40px;
+    }
+    .block {
+        margin: 30px auto 30px auto;
+    }
+    .section-box {
+        height: 100%;
+    }
+    .aside {
+        padding: 40px 0 0 0;
+    }
+    .wrap h2 {
+        padding-top: 40px;
+    }
+    .contact input {
+        width: 90%;
+    }
+    .messenge textarea {
+        width: 90%;
+    }
+    .section-form {
+        height: 100%;
+    }
+    .section-form h2 {
+        padding-top: 50px;
+    }
+    .list {
+        padding-top: 50px;
+    }
+    .contact input {
+        margin-bottom: 40px;
+    }
+    .button-send {
+        margin-right: 20px;
+        margin-bottom: 40px;
+    }
+    .section-form {
+        height: 100%;
+    }
+    .icon {
+        margin-top: 30px;
+    }
+}

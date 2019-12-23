@@ -1,0 +1,465 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+ul, h1, h2, p {
+    margin-bottom: 0;
+}
+
+.side {
+    max-width: 1400px !important;
+    min-width: 340px !important;
+    background-position: center;
+}
+
+.header {
+    height: 123px;
+    background-color: #fff;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+}
+
+.logo img {
+    height: 50px;
+    margin-top: 30px;
+}
+
+.BurgerMenu {
+    display: none;
+}
+
+ul li {
+    display: inline-block;
+    color: #212121;
+    font-family: "Open Sans - Semibold";
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 22px;
+    padding: 53px 0 0 40px;
+    letter-spacing: 1px;
+}
+
+li a {
+    color: #1b1b1b;
+}
+
+li a:hover {
+    color: #1b1b1b;
+}
+
+.menu i {
+    padding: 17px 0 0 28px;
+    width: 19px;
+    height: 19px;
+    font-size: 20px;
+    color: #1b1b1b;
+}
+
+.section-main {
+    background-color: black;
+    background-position: bottom;
+    text-align: center;
+    color: #ffffff;
+    height: 655px;
+}
+
+h1 {
+    padding-top: 204px;
+    font-family: "Open Sans - Semibold";
+    font-size: 60px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 3px;
+}
+
+.section-main p {
+    color: #ffffff;
+    padding-top: 50px;
+    font-family: "Open Sans";
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 1.1px;
+}
+
+.button:hover {
+    text-decoration: none;
+    transition: all .35s ease;
+    text-transform: uppercase;
+    color: #fff;
+    background-color: rgba(27, 164, 150, 0.3);
+    padding-top: 4px;
+    text-shadow: 0 -1px rgba(0, 0, 0, .3), 0 0 5px #ffd, 0 0 8px #fff;
+}
+
+.button {
+    width: 220px;
+    height: 70px;
+    border: 3px solid #f8f8f8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 12px;
+    color: #fff;
+}
+
+.main-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 108px;
+    font-size: 20px;
+    font-family: 'RobotoBold';
+    letter-spacing: 1px;
+    line-height: 22px;
+}
+
+.button-green:hover {
+    background-color: rgb(250, 250, 250);
+    text-decoration: none;
+    transition: all .35s ease;
+    text-transform: uppercase;
+    color: #1b1b1b;
+    padding-top: 4px;
+    text-shadow: 0 -1px rgba(0, 0, 0, .3), 0 0 5px rgb(184, 184, 180), 0 0 3px #000;
+}
+
+.button-green {
+    width: 220px;
+    height: 70px;
+    background-color: #00897b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 12px;
+    color: #fff;
+}
+
+.fa-angle-down {
+    padding-top: 100px;
+    font-size: 35px;
+    color: #fff;
+}
+
+.section-page {
+    height: 672px;
+    background-color: #ffffff;
+}
+
+.text {
+    display: flex;
+    justify-content: center;
+    letter-spacing: 0.75px;
+    line-height: 22px;
+}
+
+.text h2 {
+    font-family: "Open Sans";
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 22px;
+    padding-top: 125px;
+    padding-bottom: 36px;
+    color: #212121;
+}
+
+.tittle {
+    text-align: center;
+}
+
+p {
+    color: #212121;
+    font-family: "Open Sans";
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: center;
+}
+
+.items img {
+    height: 61px;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto 40px auto;
+}
+
+.items h2 {
+    font-family: "Open Sans - Semibold";
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.tittle p {
+    margin-bottom: 124px;
+}
+
+.section-box {
+    height: 1414px;
+    background-color: #e4fdf9;
+}
+
+.wrap h2 {
+    padding-top: 173px;
+    text-align: center;
+    font-family: "Open Sans";
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 22px;
+}
+
+.wrap p {
+    padding-top: 36px;
+    text-align: center;
+}
+
+.aside {
+    padding: 82px 0 0 0;
+    padding-left: 0!important;
+    padding-right: 0!important;
+}
+
+.block {
+    width: 370px;
+    height: 438px;
+    background-color: #fff;
+    text-align: center;
+}
+
+.button-aside:active {
+    margin-top: 40px;
+    transition: all .35s ease;
+}
+
+.Box {
+    max-width: 1170px!important;
+}
+
+.container {
+    padding-left: 0!important;
+    padding-right: 0!important;
+}
+
+.block i {
+    font-size: 60px;
+    margin-top: 58px;
+    padding: auto auto;
+}
+
+.block h2 {
+    margin-top: 40px;
+    margin-bottom: 26px;
+    color: #212121;
+    font-family: "Open Sans - Semibold";
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 22px;
+}
+
+.block p {
+    line-height: 25px;
+}
+
+.button-aside {
+    width: 150px;
+    height: 55px;
+    border: 2px solid #212121;
+    font-family: "Open Sans - Semibold";
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 22px;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 45px auto 0 auto;
+}
+
+.block:hover {
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.35);
+    background-color: #00897b;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.block:hover h2 {
+    color: #ffffff;
+}
+
+.block:hover p {
+    color: #ffffff;
+}
+
+.block:hover .button-aside {
+    border: solid 2px white;
+}
+
+.section-form {
+    background-color: #212121;
+    background-position: bottom;
+    text-align: center;
+    color: #ffffff;
+    height: 1254px;
+}
+
+.section-form h2 {
+    padding-top: 128px;
+}
+
+.section-form p {
+    padding-top: 36px;
+    color: #ffffff;
+}
+
+.list {
+    padding: 101px 0 84px 0;
+}
+
+.list p {
+    padding-top: 39px;
+}
+
+.icon {
+    width: 106px;
+    height: 106px;
+    border-radius: 50%;
+    background-color: #3949ab;
+    margin: auto auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.list i {
+    font-size: 50px;
+}
+
+.list a {
+    color: #fff;
+}
+
+.contact input {
+    width: 500px;
+    height: 84px;
+    border-radius: 10px;
+    margin: 0 0;
+}
+
+.messenge textarea {
+    width: 1031px;
+    height: 323px;
+    border-radius: 10px;
+}
+
+.button-send {
+    width: 220px;
+    height: 70px;
+    border-radius: 10px;
+    font-family: 'RobotoBold';
+    margin-right: 53px;
+}
+
+.button-send:hover {
+    padding-top: 5px;
+    background: linear-gradient(#f1e7e7, #868685);
+}
+
+input:focus {
+    background-color: #dfdddd;
+    outline: none
+}
+
+textarea:focus {
+    background-color: #dfdddd;
+    outline: none
+}
+
+.contact {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.messenge {
+    display: flex;
+    justify-content: center;
+    margin-top: 33px;
+}
+
+.button-form {
+    display: flex;
+    justify-content: flex-end;
+    margin: 39px 0 0 0;
+}
+
+.footer {
+    height: 60px;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper {
+    font-size: 20px;
+    line-height: 22px;
+    color: #212121;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'RobotoBold';
+}
+
+.nameMail {
+    padding-left: 20px;
+    font-size: 20px;
+    line-height: 28px;
+    letter-spacing: 1px;
+    font-family: "Open Sans - Semibold";
+    color: #212121;
+}
+
+.user {
+    padding: 29px 0 0 20px;
+    font-size: 20px;
+    line-height: 28px;
+    letter-spacing: 1px;
+    font-family: "Open Sans - Semibold";
+    color: #212121;
+    resize: none
+}
+
+@font-face {
+    font-family: 'Open Sans - Semibold';
+    src: url('../fonts/OpenSans-SemiBold.eot');
+    src: url('../fonts/OpenSans-SemiBold.eot?#iefix') format('embedded-opentype'), url('../fonts/OpenSans-SemiBold.woff') format('woff'), url('../fonts/OpenSans-SemiBold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url('../fonts/OpenSans-Regular.eot');
+    src: url('../fonts/OpenSans-Regular.eot?#iefix') format('embedded-opentype'), url('../fonts/OpenSans-Regular.woff') format('woff'), url('../fonts/OpenSans-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'RobotoBold';
+    src: url('../fonts/Roboto/roboto-bold-webfont.woff2');
+}
